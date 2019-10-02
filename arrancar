@@ -1,0 +1,6 @@
+#Requires Shiny package
+
+arrancar <- function(x){
+	source(x)
+	runApp(x)
+}
